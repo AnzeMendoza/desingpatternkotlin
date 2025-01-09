@@ -1,4 +1,4 @@
-package behavioral
+package behavioral.strategy
 
 class CryptoPayment(
     private val walletAddress: String

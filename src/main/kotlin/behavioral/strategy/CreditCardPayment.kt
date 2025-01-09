@@ -1,4 +1,4 @@
-package behavioral
+package behavioral.strategy
 
 class CreditCardPayment(
     private val cardNumber: String

@@ -1,4 +1,4 @@
-package behavioral
+package behavioral.strategy
 
 class PaymentContext(
     private var strategy: PaymentStrategy

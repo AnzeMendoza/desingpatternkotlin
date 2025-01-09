@@ -1,11 +1,7 @@
-import behavioral.CreditCardPayment
-import behavioral.CryptoPayment
-import behavioral.PaymentContext
-import behavioral.PaypalPayment
-import estructural.decorator.BasicNotifier
-import estructural.decorator.EmailNotifier
-import estructural.decorator.PushNotifier
-import estructural.decorator.SMSNotifier
+import behavioral.strategy.CreditCardPayment
+import behavioral.strategy.CryptoPayment
+import behavioral.strategy.PaymentContext
+import behavioral.strategy.PaypalPayment
 import org.junit.jupiter.api.Test
 
 class StrategyPatternTest {

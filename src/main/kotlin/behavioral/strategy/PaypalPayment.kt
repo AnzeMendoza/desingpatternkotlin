@@ -1,4 +1,4 @@
-package behavioral
+package behavioral.strategy
 
 class PaypalPayment(
     private val email: String
